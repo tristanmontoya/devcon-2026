@@ -12,7 +12,7 @@ ln -s /opt/symfluence/data/installs /home/jovyan/SYMFLUENCE_data/installs
 /srv/conda/envs/symfluence/bin/python -m pip install mpi4py
 ```
 
-These commands create a symlink to the SYMFLUENCE binaries we will need during the workshop and install mpi4py into the Python environment used by SYMFLUENCE. The CIROH team may have already set up the symlink. If so, the second command will report "File exists", which is harmless and can be ignored.
+These commands create a symlink to the SYMFLUENCE binaries we will need during the workshop and install `mpi4py` into the Python environment used by SYMFLUENCE. The CIROH team may have already set up the symlink. If so, the second command will report `File exists`, which is harmless and can be ignored.
 
 If you'd prefer to run SYMFLUENCE locally, installation instructions are provided here: 
 
